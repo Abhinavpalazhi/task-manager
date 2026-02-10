@@ -1,0 +1,38 @@
+.tasks-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tasks-container form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tasks-container input {
+  flex: 1;
+  padding: 8px;
+}
+
+.tasks-container ul {
+  list-style: none;
+}
+
+.tasks-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tasks-container button {
+  margin-left: auto;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
